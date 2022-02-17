@@ -6,6 +6,8 @@ void oddappering(int arr[],int n)
     int x=0,res1=0,res2=0;
     for(int i=0;i<n;i++)
     {
+
+        
         x=x^arr[i];
     }
     int sn=x&(~(x-1));
